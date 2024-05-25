@@ -1,0 +1,4 @@
+* About This Configuration
+Hello, I am an amateurish programmer. In this repository, I want to dwell deep into emacs.
+Originally quite disgusted at how most tutorials on emacs configuration are. I felt like a modularization approach suits me best.
+Therefore, having learned from [[https://github.com/CSRaghunandan/.emacs.d][this configuration]], I resolute myself to dive deep once again into the most powerful lisp intepreter.
