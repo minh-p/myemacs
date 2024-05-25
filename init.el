@@ -13,3 +13,8 @@
 
 (load (locate-user-emacs-file "general.el") nil :nomessage)
 (load (locate-user-emacs-file "setup-packages.el") nil :nomessage)
+
+(require 'setup-evil)
+(require 'setup-magit)
+(require 'setup-org)
+(require 'setup-saves)
