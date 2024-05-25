@@ -1,5 +1,8 @@
 ;; General settings
 
+(setq user-full-name "Vu Huy Minh Pham"
+      user-mail-address "minhisverynormal@gmail.com")
+
 ;; sane defaults
 (setq inhibit-startup-message t)
 ;; removing guis to become a real hacker.

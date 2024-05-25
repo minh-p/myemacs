@@ -10,7 +10,19 @@
   :hook (org-mode . dw/org-mode-setup)
   :config
   (setq org-ellipsis " ▾"
-        org-hide-emphasis-markers t))
+        org-hide-emphasis-markers t
+        org-clock-sound "~/.config/sounds/bell.wav"
+	org-startup-with-inline-images t
+	org-hide-leading-stars t
+	org-directory "~/org"
+	org-agenda-files '("Tasks.org" "Habits.org" "~/org-roam/daily")
+	org-agenda-start-with-log-mode t
+	org-log-done 'time
+	org-log-into-drawer t
+	org-todo-keywords
+	  '((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d!)")
+	    (sequence "BACKLOG(b)" "PLAN(p)" "READY(r)" "ACTIVE(a)" "REVIEW(v)" "WAIT(w@/!)" "HOLD(h)" "|" "COMPLETED(c)" "CANC(k@)"))
+	))
 
 (use-package org-bullets
   :after org
