@@ -36,7 +36,7 @@
   ;; (setq evil-search-module 'evil-search)
   (setq evil-want-keybinding nil)
   ;; no vim insert bindings
-  (setq evil-undo-system 'undo-fu)
+  (setq evil-undo-system 'undo-redo)
   :config
   (evil-mode 1))
 
@@ -46,5 +46,8 @@
   :config
   (setq evil-want-integration t)
   (evil-collection-init))
+
+;;; Magit
+(use-package magit)
 
 (provide 'setup-packages)
