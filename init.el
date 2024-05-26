@@ -26,3 +26,6 @@
 ;; editor text editing
 (require 'setup-numberlines)
 (require 'setup-completion)
+
+;; editor theme
+(require 'setup-theme)
