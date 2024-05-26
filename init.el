@@ -26,6 +26,8 @@
 ;; editor text editing
 (require 'setup-numberlines)
 (require 'setup-completion)
+(require 'setup-which-key)
+(require 'setup-lsp)
 
 ;; editor theme
 (require 'setup-theme)
