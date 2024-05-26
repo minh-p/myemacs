@@ -10,10 +10,9 @@
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 ;; text editing preferences
-;; highlight current line, enable line numbers
+;; highlight current line
 (global-hl-line-mode t)
-(setq display-line-numbers-type 'relative)
-(global-display-line-numbers-mode 1)
+
 ;; font
 (set-face-attribute 'default nil :family "JetBrainsMono Nerd Font" :height 180)
 
