@@ -15,7 +15,7 @@
 	org-startup-with-inline-images t
 	org-hide-leading-stars t
 	org-directory "~/org"
-	org-agenda-files '("Tasks.org" "Habits.org" "~/org-roam/daily")
+	org-agenda-files '("~/org-roam/daily")
 	org-agenda-start-with-log-mode t
 	org-log-done 'time
 	org-log-into-drawer t
