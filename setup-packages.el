@@ -27,4 +27,10 @@
 ;; enable imenu support for `use-package'
 (setq use-package-enable-imenu-support t)
 
+;; always ensure installed by default
+(setq use-package-always-ensure t)
+
+;; Compat - required for trying out some new features (compatiblity resolving)
+(use-package compat)
+
 (provide 'setup-packages)

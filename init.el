@@ -25,3 +25,4 @@
 
 ;; editor text editing
 (require 'setup-numberlines)
+(require 'setup-completion)
