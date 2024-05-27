@@ -8,6 +8,8 @@
 
 (use-package org
   :hook (org-mode . dw/org-mode-setup)
+  :bind (:map org-mode-map
+	      ("C-c C-o" . org-open-at-point))
   :config
   (setq org-ellipsis " ▾"
         org-hide-emphasis-markers t
