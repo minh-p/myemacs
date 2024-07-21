@@ -31,3 +31,7 @@
 
 ;; editor theme
 (require 'setup-theme)
+
+;;; misc
+;; Latex
+(require 'setup-latex)

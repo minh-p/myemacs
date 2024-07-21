@@ -31,7 +31,7 @@
 (setq use-package-always-ensure t)
 
 ;; Compat - required for trying out some new features (compatiblity resolving)
-(use-package compat)
+(use-package compat :pin "09dce8a193c5a70277512263782b82fa1cba84c0")
 
 ;; Paving for completion packages (Corfu + Cape)
 (use-package emacs
